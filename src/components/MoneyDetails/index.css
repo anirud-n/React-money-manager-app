@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.details-list-item {
+  height: 100px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.details-image {
+  height: 60px;
+}
+
+.details-text-cont {
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+.money-in-rs {
+  font-weight: 500;
+}
+
+.balance-style {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+
+.income-style {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+
+.expenses-style {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}

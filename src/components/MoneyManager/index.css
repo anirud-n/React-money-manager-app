@@ -1,0 +1,150 @@
+/* Write your CSS here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+.bg-cont {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  padding-top: 40px;
+}
+
+.total-cont {
+  width: 100%;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column;
+}
+
+.name-cont {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 120px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.name-text {
+  font-size: 25px;
+}
+
+.welocome-text {
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.span-text {
+  color: #0b69ff;
+  font-weight: 500;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.account-details-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bottom-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  width: 280px;
+  margin-right: 20px;
+}
+
+.heading {
+  font-size: 17px;
+  color: #334155;
+  margin-bottom: 10px;
+}
+
+.lables {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 11px;
+  margin-bottom: 3px;
+}
+
+.input-elements {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #cbd5e1;
+  margin-bottom: 12px;
+}
+
+.add-btn {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #0b69ff;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.history-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  padding-top: 30px;
+  border: 2px solid #cbd5e1;
+  border-radius: 15px;
+  width: 350px;
+  overflow-y: auto;
+}
+
+.column-header-tab {
+  width: 100%;
+  height: 35px;
+  padding: 10px;
+  border: 2px solid #cbd5e1;
+  display: flex;
+  flex-direction: row;
+}
+
+.perticular1 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 55px;
+}
+
+.perticular2 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 45px;
+}
+
+.perticular3 {
+  font-size: 13px;
+  font-weight: 500;
+  margin-right: 30px;
+}
